@@ -1,0 +1,118 @@
+body{
+  margin: 20px;
+  font-family: "Walter Turncoat";
+  text-align: center;
+  background: #C0C0C0;
+  background: linear-gradient(135deg, #C0C0C0,#A9A9A9) top left fixed;
+  color: white;
+}
+.TicTacToe{
+  width:400px;
+  height: 420px;
+  margin: auto;
+  border: 1px solid #C0C0C0;
+  border-radius: 8px;
+}
+nav{
+  width: 100%;
+  height: 10%;
+  margin:0; 
+  border-radius: 8px 8px 0 0;
+}
+nav a{
+  float:left;
+  width: 50%;
+   height: 100%;
+
+  display: inline-block;
+
+}
+
+.playType{
+  font-size: 18px;
+  color:  #087408;
+  padding: 8px 0 0 0;
+}
+
+.fa{
+  color: #087408;
+  font-size: 24px;
+}
+
+#chooseOX{
+  width: 100%;
+  height: 80%;
+  text-align: center;
+  padding: 70px 75px 0 75px;
+  background-color: #087408;
+  color: white;
+  display: block;
+}
+
+#O,#X{
+  width: 70px;
+  height: 30px;
+  margin: 15px 8px 0 0;
+  font-size: 18px;
+  text-align: center;
+  padding: 0 0 1px 0;
+  border-radius: 15px;
+}
+
+.page-invisible{
+  display:none;
+}
+#checkboard{
+  display:none;
+  width: 100%;
+  height: 80%;
+  margin: 0 auto;
+  background-color: #087408;
+  padding: 60px 10px 10px 10px;
+}
+
+table{
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  height: auto;
+}
+
+td{
+  border: 3px solid white;
+  width: 63px;
+  height: 63px;
+  font: 36px "Walter Turncoat";
+  color: white;
+  border-style: solid;
+}
+
+td:hover{
+    cursor: pointer;
+}
+
+.footer{
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  background-color: white;
+  border-radius: 0 0 8px 8px;
+}
+
+.hover-color{
+  color : #d8d8d8;
+}
+
+.victory{
+  color: 	#FFD700;
+}
+
+.td-color{
+  color: white;
+}
+
+a.btn:hover{
+  background-color: white;
+  color:  #087408;
+}
+
